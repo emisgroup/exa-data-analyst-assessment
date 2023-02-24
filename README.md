@@ -16,18 +16,18 @@ Part 2:
 Using the information you have from part 1 identify the 2 most suitable postcode areas (i.e. largest patient count) and derive a list of patients that fit the following criteria so that you can invite them to take part in a local research study.
 
 Patients should have:
-    * Current diagnosis of asthma, i.e. have current observation in their medical record with relevant clinical codes from asthma refset (refsetid 999012891000230104), and not resolved
-    * Have been prescribed medication from the list below, or any medication containing these ingredients (i.e. child clinical codes), in the last 30 years:
-    * Formoterol Fumarate (codeid 591221000033116, SNOMED concept id 129490002)
-    * Salmeterol Xinafoate (codeid 717321000033118, SNOMED concept id 108606009)
-    * Vilanterol (codeid 1215621000033114, SNOMED concept id 702408004)
-    * Indacaterol (codeid 972021000033115, SNOMED concept id 702801003)
-    * Olodaterol (codeid 1223821000033118, SNOMED concept id 704459002)
+* Current diagnosis of asthma, i.e. have current observation in their medical record with relevant clinical codes from asthma refset (refsetid 999012891000230104), and not resolved
+* Have been prescribed medication from the list below, or any medication containing these ingredients (i.e. child clinical codes), in the last 30 years:
+ * Formoterol Fumarate (codeid 591221000033116, SNOMED concept id 129490002)
+ * Salmeterol Xinafoate (codeid 717321000033118, SNOMED concept id 108606009)
+ * Vilanterol (codeid 1215621000033114, SNOMED concept id 702408004)
+ * Indacaterol (codeid 972021000033115, SNOMED concept id 702801003)
+ * Olodaterol (codeid 1223821000033118, SNOMED concept id 704459002)
 
 AND should be excluded if:
-    * Currently a smoker i.e.  have current observation with relevant clinical codes from smoker refset (refsetid 999004211000230104)
-    * Currently weight less than 40kg (SNOMED concept id 27113001)
-    * Currently have a COPD diagnosis i.e. have current observation in their medical record with relevant clinical codes from COPD refset (refsetid 999011571000230107), and not resolved.
+ * Currently a smoker i.e.  have current observation with relevant clinical codes from smoker refset (refsetid 999004211000230104)
+ * Currently weight less than 40kg (SNOMED concept id 27113001)
+ * Currently have a COPD diagnosis i.e. have current observation in their medical record with relevant clinical codes from COPD refset (refsetid 999011571000230107), and not resolved.
 
 Only patients that have not opted out of taking part in research or sharing their medical record should be invited to participate (type 1 opt out, connected care opt out)
 
