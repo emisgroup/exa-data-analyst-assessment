@@ -48,4 +48,4 @@ We take into account the following critria when evaluating a solution. Each crit
 
 ## Submit your solution	
 Create a public Github repository and push your solution including any documentation you feel necessary. Commit often - we would rather see a history of trial and error than a single monolithic push. When you're finished, please send us the URL to the repository. 
-Please note that if successful, you will be asked to go over your solution and presentation of your data output and findings in the first part of your interview.
+Please note that if successful, you will be asked to go over your solution and presentation of your data output and findings, as well as talk about the evaluation points in the first part of your interview.
