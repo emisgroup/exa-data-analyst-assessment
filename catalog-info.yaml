@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: exa-data-analyst-assessment
+  annotations:
+    github.com/project-slug: emisgroup/exa-data-analyst-assessment
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/exa-manx-admins
